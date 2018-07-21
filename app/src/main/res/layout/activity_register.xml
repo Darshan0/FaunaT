@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/material"
+    tools:context="in.co.sih.faunat.register">
+
+
+    <EditText
+        android:id="@+id/registerphonenumber"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/edittextstyle"
+        android:hint="PHONE NUMBER"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:textColor="#0a0a0a"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <EditText
+        android:id="@+id/registerusername"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/registerphonenumber"
+        android:layout_below="@+id/registerphonenumber"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/edittextstyle"
+        android:hint="USERNAME"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#0a0a0a"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+
+    <EditText
+        android:id="@+id/registerpassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/registerusername"
+        android:layout_below="@+id/registerusername"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/edittextstyle"
+        android:hint="PASSWORD"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#0a0a0a"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+
+    <Button
+        android:id="@+id/newregister"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="86dp"
+        android:background="@drawable/buttonstyle"
+        android:text="REGISTER"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.626"
+        app:layout_constraintStart_toEndOf="@+id/signin"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</RelativeLayout>

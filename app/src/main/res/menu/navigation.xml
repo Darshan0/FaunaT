@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_start"
+        android:icon="@drawable/iconmaps"
+        android:title="@string/maps" />
+    <item
+        android:id="@+id/report"
+        android:icon="@drawable/system"
+        android:title="FaunaT" />
+
+    <item
+        android:id="@+id/fir"
+        android:icon="@drawable/ic_fir"
+        android:title="FIR" />
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="Logout" />
+
+
+
+
+
+</menu>

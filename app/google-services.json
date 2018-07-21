@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "11576424545",
+    "firebase_url": "https://faunat-357d0.firebaseio.com",
+    "project_id": "faunat-357d0",
+    "storage_bucket": "faunat-357d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11576424545:android:8159b8be4445ca1b",
+        "android_client_info": {
+          "package_name": "in.co.sih.faunat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11576424545-41lqmciddgf9m91b1lmal9oijo7vltku.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.co.sih.faunat",
+            "certificate_hash": "4f52ace1a19eb995607d9d3307328eb08b9e5741"
+          }
+        },
+        {
+          "client_id": "11576424545-bbborf1n865vald9cuu6p12liskqrd3d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2OOU_Ad7POS-v45K2lwGgApnmdgFz0PU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11576424545-bbborf1n865vald9cuu6p12liskqrd3d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
